@@ -10,14 +10,7 @@ int hashfun(string str, vector<int> &vec)
 
         int ch = str[i] - 'a';
 
-        if (vec[ch]!=0)
-        {
-            vec[ch]++;
-        }
-        else
-        {
-            vec[ch] = 1;
-        }
+        vec[ch]++;
     }
 }
 
