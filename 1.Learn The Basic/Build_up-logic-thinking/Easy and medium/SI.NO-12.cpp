@@ -6,7 +6,7 @@ class Pattern
 public:
     int patt(int n)
     {
-        int space=2*(n-1);  //space logic 
+        int space=2*(n-1);
 
         for (int i = 1; i <= n; i++)
         {

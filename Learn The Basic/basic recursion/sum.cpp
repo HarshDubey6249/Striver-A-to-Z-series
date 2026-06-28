@@ -1,20 +1,19 @@
 #include <iostream>
 using namespace std;
-int name(int n,int ans, int count)
+int sum(int n, int ans, int count)
 {
     if (n == count)
     {
 
         return ans;
     }
-    cout << count<< "\n";
-    name(n,ans+count, count + 1);
-        
+    cout << count << "\n";
+    sum(n, ans + count, count + 1);
 }
 
 int main()
 {
 
-  cout<<  name(11, 0,0);
+    cout << sum(11, 0, 0);
     return 0;
 }
