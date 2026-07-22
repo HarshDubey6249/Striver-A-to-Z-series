@@ -84,7 +84,7 @@ using namespace std;
 // }
 
 int longest_consecutive(vector<int> &arr){
-    int n=arr.size();
+    int n=arr.size(); 
     int longest=1;
     unordered_set<int>st;
 
